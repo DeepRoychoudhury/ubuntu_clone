@@ -12,11 +12,13 @@ p.activities {
 		color: #fff;
         display: table-cell;
         line-height: 0;
+        font-size: small;
 }
 
 .datetime {
-		padding-left: 370px;
+		padding-left: 400px;
 		color: #fff;
         display: table-cell;
         line-height: 0;
+        font-size: small;
 }
