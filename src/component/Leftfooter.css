@@ -24,3 +24,23 @@ img {
 a.options{
 	margin-top: 230px;
 }
+
+a.terminal:hover{
+	background-color: white;
+}
+
+a.mozilla:hover{
+	background-color: white;
+}
+
+a.folder:hover{
+	background-color: white;
+}
+
+a.libreofficewriter:hover{
+	background-color: white;
+}
+
+a.options:hover{
+	background-color: white;
+}

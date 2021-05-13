@@ -7,31 +7,23 @@ import libreofficewriter from '../images/LibreOfficeWriter.JPG';
 import folder from '../images/folder.JPG';
 
 class Leftfooter extends Component {
-	handleHover(x){
-		console.log("mouseover");
-	}
-
-	exitHover(){
-		console.log("mouseout");
-	}
-
 	render(){
 		return(
 				<div class="leftfoot">
-						<a href="blank" onMouseEnter={this.handleHover(this)} onMouseLeave={this.exitHover}>
+						<a href="blank" class="terminal">
 							<img src={terminal} alt="terminal"/>
 						</a>
-						<a href="blank">
-							<img src={mozilla} alt="terminal"/>
+						<a href="blank" class="mozilla">
+							<img src={mozilla} alt="mozilla"/>
 						</a>
-						<a href="blank">
-							<img src={folder} alt="terminal"/>
+						<a href="blank" class="folder">
+							<img src={folder} alt="folder"/>
 						</a>
-						<a href="blank">
-							<img src={libreofficewriter} alt="terminal"/>
+						<a href="blank" class="libreofficewriter">
+							<img src={libreofficewriter} alt="libreofficewriter"/>
 						</a>
 						<a href="blank" class="options">
-							<img src={options} alt="terminal"/>
+							<img src={options} alt="options"/>
 						</a>
 				</div>
 			)
